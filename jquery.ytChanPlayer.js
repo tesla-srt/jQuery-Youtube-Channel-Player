@@ -82,7 +82,7 @@
     $.get('https://www.googleapis.com/youtube/v3/channels', {
       part: 'contentDetails',
       key: options.apiKey,
-      forUsername: options.username
+      forHandle: options.username
     })
       .then(function (res, textStatus, jqXHR) {
         var req;
